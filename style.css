@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.side-image {
+  position: relative;
+  height: 100%;
+}
+
+.side-image .background {
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  padding: 1em 0em;
+  align-items: center;
+}
+
+.logo p {
+  font-size: 3em;
+}
+
+.logo img {
+  height: 5em;
+  width: 4em;
+}
+
+.main {
+  margin: auto 0;
+  padding: auto;
+}
+
+.main .motive {
+  font-size: 1.7em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+form {
+  background: white;
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.1);
+  margin: auto 0px;
+  padding: 2em 1.5em;
+}
+
+form h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+form label {
+  text-transform: uppercase;
+}
+
+form input {
+  padding: 5px 10px;
+  width: 24em;
+  font-size: 0.9em;
+  height: 1.7em;
+  border-radius: 5px;
+  margin: 2px auto;
+  border: none;
+  outline: #e5e7eb solid 1px;
+}
+
+form input:focus {
+  outline: rgba(0, 0, 255, 0.5) solid 1px;
+}
+
+form input[type="password"]:invalid {
+  outline-color: red;
+}
+
+.mismatch {
+  color: red;
+  font-size: 0.7em;
+}
+
+
+.name,
+.passwords,
+.contact {
+  display: flex;
+  gap: 8em;
+  margin-bottom: 1em;
+}
+
+form>div>div {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 2em;
+  padding: 15px 50px;
+  color: white;
+  background: #596d48;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main>p {
+  font-size: 1em;
+  margin: 0em 2em;
+  font-weight: bold;
+}
+
+.main>p>a {
+  color: #596d48;
+  text-decoration: none;
+}
